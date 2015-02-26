@@ -1,0 +1,98 @@
+html, body
+{
+    width: 100%; height: 100%;
+    margin: 0px; padding: 0px;
+}
+
+div.container {
+	position: relative;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.navbar a {
+	display: block;
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: gray;
+}
+
+#signin {
+	background-color: #3399FF;
+	margin-top: 4px;
+	height: 22px; width: 60px;
+	padding: 6px 10px;
+	color: white;
+	text-align: center;
+}
+
+div.navbar img {
+	margin-top: -8px;
+}
+
+div.logo {
+	position: absolute;
+	top: 200px;
+	left: 50%;
+}
+
+div.logo img {
+	position: absolute;
+	height: 95px; width: 269px;
+	transform: translate(-135px, 0px);
+}
+
+div.search {
+	position: absolute;
+	top: 100px;
+	transform: translate(-250px, 0px);
+}
+
+input.searchbox  {
+		width: 500px; height: 35px;
+		border-color: #5983FF;
+		border-size: 1px;
+}
+
+input.l_button {
+	margin-top: 10px;
+	margin-left: 100px;
+	float: left;
+}
+
+input.r_button {
+	margin-top: 10px;
+	margin-right: 100px;
+	float: right;
+}
+
+div.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%; height: 40px;
+	background-color: #e6e6e6;
+}
+
+div.footer a {
+	display: inline;
+	margin-bottom: 12px;
+	padding: 9px;
+	text-decoration: none;
+	color: gray;
+}
+div.footer #l_list a {
+	float: left;
+	margin-left: 30px;
+}
+
+div.footer #r_list a {
+	float: right;
+	margin-right: 30px;
+}
